@@ -127,7 +127,7 @@ public class MainWindow {
 
 
 		
-		frame.setSize(820, 760);
+		frame.setSize(1000, 760);
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.add(selectionSort);
