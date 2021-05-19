@@ -93,7 +93,7 @@ public class MainWindow {
 		mergeList = new ArrayList<Integer>();
 		quickList = new ArrayList<Integer>();
 
-		selectionSort = new SortPanel("Selection Sort");
+		selectionSort = new SortPanel("Bubble Sort");
 		selectionSort.setList(selectionList);
 		sortPanels.add(selectionSort);
 
@@ -120,7 +120,7 @@ public class MainWindow {
 
 
 		
-		frame.setSize(800, 800);
+		frame.setSize(820, 760);
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.add(selectionSort);
