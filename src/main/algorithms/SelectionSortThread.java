@@ -1,3 +1,7 @@
+package main.algorithms;
+import main.view.Colors;
+import main.view.MainWindow;
+import main.view.SortPanel;
 
 /** Runs a selection sort algorithm. */
 public class SelectionSortThread extends SortThread {

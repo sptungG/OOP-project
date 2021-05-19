@@ -1,3 +1,7 @@
+package main.algorithms;
+import main.view.Colors;
+import main.view.MainWindow;
+import main.view.SortPanel;
 
 /** Runs an insertion sort algorithm. */
 public class InsertionSortThread extends SortThread {

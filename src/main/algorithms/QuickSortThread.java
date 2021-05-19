@@ -1,4 +1,9 @@
+package main.algorithms;
 import java.util.ArrayList;
+
+import main.view.Colors;
+import main.view.MainWindow;
+import main.view.SortPanel;
 
 
 /** Runs a quick sort algorithm with the rightmost element as pivot. */

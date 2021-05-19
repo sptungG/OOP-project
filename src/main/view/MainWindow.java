@@ -1,3 +1,4 @@
+package main.view;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -14,6 +15,12 @@ import javax.swing.SwingUtilities;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
+
+import main.algorithms.InsertionSortThread;
+import main.algorithms.MergeSortThread;
+import main.algorithms.QuickSortThread;
+import main.algorithms.SelectionSortThread;
+import main.algorithms.SortThread;
 
 public class MainWindow {
 	private JFrame frame;
@@ -287,7 +294,7 @@ public class MainWindow {
 		}
 	}
 	
-	protected void stop() {
+	public void stop() {
 		state = (state == State.STARTED || state == State.PAUSED) ? State.STOPPED
 				: State.STARTED;
 		if (!isStopped())

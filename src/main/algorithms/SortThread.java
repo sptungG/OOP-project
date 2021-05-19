@@ -1,7 +1,10 @@
+package main.algorithms;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 
 import javax.swing.SwingUtilities;
+
+import main.view.SortPanel;
 
 public abstract class SortThread extends Thread {
 
@@ -28,7 +31,7 @@ public abstract class SortThread extends Thread {
 		return sorted;
 	}
 	
-	protected void stopThread() {
+	public void stopThread() {
 		currentThread().interrupt();
 	}
 	

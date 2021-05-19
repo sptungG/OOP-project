@@ -1,3 +1,4 @@
+package main.view;
 import java.awt.Color;
 
 public enum Colors {
